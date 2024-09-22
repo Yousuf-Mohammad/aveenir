@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import {useState, useEffect, useRef} from 'react'
+import {useState, useRef} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import 'remixicon/fonts/remixicon.css'
@@ -8,12 +8,12 @@ import "./Menu.css"
 
 import logo from "@/public/logo.png"
 
-const menuLinks=[
-    {path:"/", label:"Home"},
-    {path:"/", label:"Work"},
-    {path:"/", label:"About"},
-    {path:"/", label:"Contact"},
-]
+// const menuLinks=[
+//     {path:"/", label:"Home"},
+//     {path:"/", label:"Work"},
+//     {path:"/", label:"About"},
+//     {path:"/", label:"Contact"},
+// ]
 const menu = () => {
     const container = useRef();
     const [isMenuOpen , setIsMenuOpen] = useState(false);
