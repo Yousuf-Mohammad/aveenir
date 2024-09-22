@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 20vh;
+    padding: 2% 5%;
+}
+#navContainer{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+#navimage{
+    width: 12vw;
+}
+#navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    font-weight: 700;
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    letter-spacing: -0.1vw;
+   
+}
+
+#navlinks>li{
+   
+    padding: 1vw 0.5vw;
+   
+    /* background-color: crimson; */
+}
+
+#navlinks>li:hover{
+    background-color: #F6821F;
+    box-shadow: 1px 1px 5px 1px #424242;
+
+}
+
