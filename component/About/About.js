@@ -2,33 +2,22 @@
 import React from 'react'
 import Image from 'next/image';
 import "./About.css"
+import photo from "@/public/office2.jpeg"
 
 
 const About = () => {
     return (
     <div id='about'>
         <div id='aboutImgContainer'>
-            {/* <Image src={photo} alt="about image" width={1000} height={1000} /> */}
+            <Image src={photo} alt="about image" id='aboutImg' />
             {/* https://wearenext.io/ */}
         </div>
 
         <div id='aboutTextContainer'>
-            <h1>simply dummy text of the</h1>
-            <h1>printing and typesetting industry.</h1>
-            <h1>Lorem Ipsum has been the industrs</h1>
-            <h1>standard dummy text ever since the 1500s,</h1>
-            <h1>when an unknown printer took a galley of </h1>
-            <h1>type and scrambled it to make </h1>
-            <h1>a type specimen book. </h1>
-            <h1>It has survived not only five centuries</h1>
-            <h1>,but also the leap into electronic</h1>
-            <h1>typesetting, remaining essentially unchanged</h1>
-            <h1>.It was popularised in the 1960s</h1>
-            <h1>with the release of Letraset sheets containing</h1>
-            <h1>Lorem Ipsum passages, and more recently </h1>
-            <h1>with desktop publishing software </h1>
-            <h1>like Aldus PageMaker including </h1>
-            <h1>versions of Lorem Ipsum.</h1>    
+            <h1>Who We are </h1>
+            <h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nisi temporibus quod obcaecati eveniet dolorum sint facere minima mollitia nobis ea inventore explicabo sapiente repudiandae illum adipisci eius doloribus suscipit impedit, fuga atque unde error? Odio repellendus totam, quas porro iusto aut, temporibus adipisci excepturi, cumque amet quisquam! Iure, vitae.
+            </h2>
         </div>
 
     </div>

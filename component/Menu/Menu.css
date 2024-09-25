@@ -2,8 +2,8 @@
     width: 100%;
     /* background-color: yellow; */
     
-    padding: 2% 2%;
-    position: absolute;
+  
+    position: fixed;
     z-index: 2;
 }
 .menuBar{
@@ -11,6 +11,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: yellow; */
+    padding: 2% 2%;
+    
     
 }
 .menuLogoImg{
@@ -24,6 +27,8 @@
 }
 
 .menuOverlay{
+    width: 100vw;
+    height: 100%;
     background-color: rgba(250, 235, 215, 0.815);
     padding: 2%;
 }

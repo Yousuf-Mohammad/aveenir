@@ -1,11 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
 :root {
   --background: #dadada;
   --foreground: #424242;
   --accent:#F47F20;
+  --font-bebas: 'Bebas Neue', sans-serif;
+  --font-Heading: 5vw;
+  --font-Normal:2.2vw;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,7 +29,8 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family:bebas-neue-regular;
+  overflow-x: hidden;
+  font-family:var(--font-bebas);
 
 }
 

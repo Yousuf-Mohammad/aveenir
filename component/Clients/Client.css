@@ -1,0 +1,9 @@
+#mapHeading{
+    font-size: 5vw;
+    text-align: center;
+    margin: 3%;
+    font-weight: 900;
+    -webkit-text-stroke-color: var(--accent);
+    -webkit-text-stroke-width: 3px;
+    color:transparent
+}
