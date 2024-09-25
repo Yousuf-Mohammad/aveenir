@@ -125,3 +125,10 @@
      font-size: var(--font-Normal);
      line-height: 3vw;
  }
+ #serviceText>ul ::before{
+   content: "✔"; 
+   color: var(--accent);
+   font-size: 2vw;
+   margin-right: 2vw;
+   font-weight: 900;
+ }

@@ -6,16 +6,20 @@ import Products from "@/component/Products/Products";
 import Services from "@/component/Services/Services"
 import Client from "@/component/Clients/Client";
 import Footer from "@/component/Footer/Footer"
+import Contact from "@/component/Contact/Contact"
+import Stripe from "@/component/Stripe/Stripe"
 export default function Home() {
   return (
     <>
 
       <Menu/>
       <TopPage/>
+      <Stripe/>
       <About/>
       <Products/>
       <Services/>
       <Client/>
+      <Contact/>
       <Footer/>
 
       

@@ -1,6 +1,13 @@
 #extensions
 
-#auto renaming
-#code spell checker
-#ES6 Code Snippets
-#PathIntellisence
+#auto renaming#
+#code spell checker#
+#ES6 Code Snippets#
+#PathIntellisence#
+
+
+
+#GSAP Animation 
+#Scrolling Trigger
+#Locomotive
+#Responsive 

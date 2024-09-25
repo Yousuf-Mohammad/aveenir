@@ -22,6 +22,7 @@
     height: 100%;
     object-fit: cover;
     object-position: bottom;
+    box-shadow: 5px 5px 20px var(--foreground);
 }
 #aboutTextContainer{
     width: 60vw;

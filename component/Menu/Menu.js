@@ -46,7 +46,9 @@ const menu = () => {
                     } */}
 
                     <Link href="/" className="menuLink">Home</Link>
-                    <Link href="/" className="menuLink">Work</Link>
+                    <Link href="/" className="menuLink">Our Works</Link>
+                    <Link href="/" className="menuLink">Packages</Link>
+                    <Link href="/" className="menuLink">Services</Link>
                     <Link href="/" className="menuLink">About</Link>
                     <Link href="/" className="menuLink">Contact</Link>
             </div>
@@ -70,7 +72,7 @@ const menu = () => {
         
 
         
-        {/* overlayed menu appeared on click EVENT */}
+        
 
        
         

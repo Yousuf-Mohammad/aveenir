@@ -1,0 +1,36 @@
+#stripeContainer1{
+    margin-top: 8vh;
+    border-bottom: 4px double var(--foreground);
+    border-top: 4px double var(--foreground);
+    transform: rotate(-3deg);
+    position: relative;
+    background-color: var(--background);
+    z-index: 2;
+}   
+#stripeContainer2{
+    margin-top: 8vh;
+    border-bottom: 4px double var(--foreground);
+    border-top: 4px double var(--foreground);
+    transform: rotate(5deg);
+}   
+#stripe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+
+}
+#stripe>h1{
+    font-size: 4vw;
+    text-wrap: none;
+    flex-shrink: 0;
+}
+#stripe>h1::after{
+    content:"→";
+    color: var(--accent);
+    font-size: 8vw;
+    font-weight: 900;
+    margin-left: 3vw;
+    line-height: 2vw;
+    
+}
