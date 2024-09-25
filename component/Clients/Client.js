@@ -4,22 +4,40 @@ import "./Client.css"
 import Image from 'next/image'
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import { Pagination,  Autoplay } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import "swiper/css/navigation";
 
 import map from "@/public/651d3247b7d7fac81152b4eb_client geography.svg"
-// import kajolDhara from "@/public/Kajoldhara.png"
-// import move  from "@/public/Move.png"
+import kajolDhara from "@/public/Kajoldhara.png"
+import move  from "@/public/Move.png"
 const Client = () => {
   return (
     <div>
         
         <div id="clientMap">
             <h1 id='mapHeading'>Our Clients Around the globe</h1>
-            <Image src={map} alt="Map" />
+            <Image src={map} alt="Map" id="mapImg" />
         </div>
         <div id="clientScroller">
+
+          {/* placeholder for scroller */}
+              <div id="clientScrollerPlaceholder">
+                <Image src={kajolDhara} alt="logo" width={150} />
+                <Image src={move} alt="logo" width={150} />
+                <Image src={kajolDhara} alt="logo" width={150} />
+                <Image src={move} alt="logo" width={150} />
+                <Image src={kajolDhara} alt="logo" width={150} />
+                <Image src={move} alt="logo" width={150} />
+                <Image src={kajolDhara} alt="logo" width={150} />
+                <Image src={move} alt="logo" width={150} />
+                <Image src={kajolDhara} alt="logo" width={150} />
+                <Image src={move} alt="logo" width={150} />
+                <Image src={kajolDhara} alt="logo" width={150} />
+                <Image src={move} alt="logo" width={150} />
+                <Image src={kajolDhara} alt="logo" width={150} />
+                <Image src={move} alt="logo" width={150} />
+              </div>
 
         {/* <Swiper
         

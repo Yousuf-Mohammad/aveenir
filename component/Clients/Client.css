@@ -1,3 +1,4 @@
+
 #mapHeading{
     font-size: 5vw;
     text-align: center;
@@ -6,4 +7,23 @@
     -webkit-text-stroke-color: var(--accent);
     -webkit-text-stroke-width: 3px;
     color:transparent
+}
+#mapImg{
+    width: 70%;
+    height: 80%;
+
+    margin: auto;
+}
+
+#clientScrollerPlaceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    border-bottom: 3px solid var(--foreground);
+    margin-bottom: 100px;
+    position: relative;
 }

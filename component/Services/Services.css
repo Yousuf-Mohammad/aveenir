@@ -1,0 +1,127 @@
+#servicesContainer{
+    
+    width: 100vw;
+    height: 100vh;
+    padding: 5% 5%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+
+
+}
+#serviceText{
+    width: 50%;
+    padding: 5%;
+    
+   
+}
+
+#servicesImgContainer{
+
+    width: 50%;
+
+}
+ 
+ #services1Img{
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute;
+    top:20%;
+    left:  5%;
+    transform: rotate(-20deg);
+    box-shadow: 5px 5px 20px var(--foreground);
+
+ }
+ #services2Img{
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute;
+    top:20%;
+    left: 7%;
+    transform: rotate(-10deg);
+    box-shadow: 5px 5px 20px var(--foreground);
+    border: 1px solid var(--foreground);
+ }
+
+ #services3Img{
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute;
+    top:20%;
+    left: 9%;
+    transform: rotate(0deg);
+    box-shadow: 5px 5px 20px var(--foreground);
+    border: 1px solid var(--foreground);
+ }
+ #services4Img{
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute;
+    top:20%;
+    left:11%;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px 20px var(--foreground);
+    border: 1px solid var(--foreground);
+ }
+ #services5Img{
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute;
+    top:20%;
+    left: 13%;
+    transform: rotate(20deg);
+    box-shadow: 5px 5px 20px var(--foreground);
+    border: 1px solid var(--foreground);
+ }
+ #services6Img{
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute;
+    top:23%;
+    left: 9%;
+    transform: rotate(5deg);
+    box-shadow: 5px 5px 20px var(--foreground);
+    border: 1px solid var(--foreground);
+ }
+ #services7Img{
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover; 
+    object-position: center; 
+    position: absolute;
+    top:25%;
+    left: 9%;
+    transform: rotate(0deg);
+    box-shadow: 5px 5px 20px var(--foreground);
+    border: 1px solid var(--foreground);
+ }
+ 
+
+ #serviceText>h1{
+     font-size: var(--font-Heading);
+     font-weight: 900;
+     -webkit-text-stroke-color: var(--accent);
+     -webkit-text-stroke-width: 3px;
+     color:transparent;
+     line-height: 4vw;
+     margin-bottom: 2vw;
+ }
+ #serviceText>ul>li{
+     font-size: var(--font-Normal);
+     line-height: 3vw;
+ }

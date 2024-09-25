@@ -1,11 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "swiper/css";
-@import "swiper/css/pagination";
-@import "swiper/css/navigation";
+
 :root {
-  --background: #dadada;
+  --background: white;
   --foreground: #424242;
   --accent:#F47F20;
   --font-bebas: 'Bebas Neue', sans-serif;
