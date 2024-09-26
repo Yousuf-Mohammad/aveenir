@@ -39,6 +39,8 @@
 .input{
     padding: 2% 25%;
     border-bottom:var(--accent) 2px solid;
+   box-shadow:inset 5px 5px 5px black;
+
     
 }
 .input:focus{
@@ -49,8 +51,37 @@
     color: var(--accent);
     font-weight: 900;
 }
+#submit{
+   color: var(--background);
+   background-color: var(--accent);
+   padding: 2% 5%;
+   /* border-radius: 5px; */
+   font-weight: 900;
+   box-shadow: 5px 5px 5px black;
+   cursor: pointer;
+   /* border:1px solid black */
+}
 #address{
     width: 50%;
     height: 100%;
+    padding: 5% 5% 5% 0;
     /* background-color: red; */
+}
+#mapContainer{
+    width: 100%;
+    margin-bottom: 5%;
+    
+    border-radius: 10px;
+}
+#address>h1{
+    width: 100%;
+    text-align: left;
+    color:var(--background);
+    font-size: var(--font-text);
+    font-weight: 500;
+}
+
+.icon{
+    color:var(--accent);
+    margin-right: 10px;
 }
