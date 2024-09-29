@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     gap: 4vw;
+    /* transition: all ease-in-out; */
 
 }
 #stripe2{
@@ -54,4 +55,13 @@ h1{
     margin-left: 3vw;
     line-height: 2vw;
     
+}
+@media (max-width: 480px) {
+    #stripeContainer1{
+        display: none;
+    }
+    #stripeContainer2{
+        display: none;
+    }
+
 }

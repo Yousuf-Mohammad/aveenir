@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import {useState, useRef} from 'react'
+import {useState} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import 'remixicon/fonts/remixicon.css'
@@ -15,15 +15,15 @@ import logoWhite from "@/public/aveenir-white.png"
 //     {path:"/", label:"About"},
 //     {path:"/", label:"Contact"},
 // ]
-const menu = () => {
-    const container = useRef();
+const Menu = () => {
+    // const container = useRef();
     const [isMenuOpen , setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     }
   return (
-    <div className='menuContainer' ref={container}>
+    <div className='menuContainer' >
         {/* visible on initial load */}
         {isMenuOpen? <div className="menuOverlay">
             <div className="menuOverlayBar">
@@ -45,12 +45,12 @@ const menu = () => {
                         })
                     } */}
 
-                    <Link href="/" className="menuLink">Home</Link>
-                    <Link href="/" className="menuLink">Our Works</Link>
-                    <Link href="/" className="menuLink">Packages</Link>
-                    <Link href="/" className="menuLink">Services</Link>
-                    <Link href="/" className="menuLink">About</Link>
-                    <Link href="/" className="menuLink">Contact</Link>
+                    <Link href="/" className="menuLink" onClick={toggleMenu}>Home</Link>
+                    <Link href="/services"  onClick={toggleMenu}className="menuLink">Services</Link>
+                    <Link href="/about" onClick={toggleMenu} className="menuLink">About</Link>
+                    <Link href="/contact" onClick={toggleMenu} className="menuLink">Contact</Link>
+                    <Link href="/ourWorks"   onClick={toggleMenu}className="menuLink incomplete">Our Works</Link>
+                    <Link href="/Packages"  onClick={toggleMenu} className="menuLink incomplete">Packages</Link>
             </div>
             <div id='socials'>
                 <h1>Find Us On</h1>
@@ -80,4 +80,4 @@ const menu = () => {
   )
 }
 
-export default menu
+export default Menu

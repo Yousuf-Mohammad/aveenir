@@ -77,11 +77,197 @@
     width: 100%;
     text-align: left;
     color:var(--background);
-    font-size:1.5vw;
+    font-size:var(font-Normal);
     font-weight: 500;
 }
 
 .icon{
     color:var(--accent);
     margin-right: 10px;
+}
+
+
+@media (max-width: 1024px) {
+    #contactContainer{
+        width: 80vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #333;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: var(--foreground);
+        box-shadow: 10px 10px 20px var(--foreground);
+    }
+    
+    #message{
+        width: 100%;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vmax;
+        width: 100%;
+        height: 100%;
+       
+    }
+    #form>h1{
+        color:var(--accent);
+        font-size: 15vw;
+        font-weight: 900;
+    }
+    .input{
+        padding: 2% 25%;
+        border-bottom:var(--accent) 2px solid;
+       box-shadow:inset 5px 5px 5px black;
+    
+        
+    }
+    .input:focus{
+        outline: none;
+    }
+    .input::placeholder{
+        text-align: center;
+        color: var(--accent);
+        font-weight: 900;
+    }
+    #submit{
+       color: var(--background);
+       background-color: var(--accent);
+       padding: 2% 5%;
+       /* border-radius: 5px; */
+       font-weight: 900;
+       box-shadow: 5px 5px 5px black;
+       cursor: pointer;
+       /* border:1px solid black */
+    }
+    #address{
+        width: 100%;
+        height: 100%;
+        padding: 5% ;
+        /* background-color: red; */
+    }
+    #mapContainer{
+        width: 100%;
+        margin-bottom: 5%;
+        
+        border-radius: 10px;
+    }
+    #address>h3{
+        width: 100%;
+        text-align: left;
+        color:var(--background);
+        font-size:var(font-Normal);
+        font-weight: 500;
+    }
+    
+    .icon{
+        
+        color:var(--accent);
+        margin-right: 10px;
+    }
+    
+}
+@media (max-width: 480px) {
+    #contactContainer{
+        width: 80vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #333;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: var(--foreground);
+        box-shadow: 10px 10px 20px var(--foreground);
+    }
+    
+    #message{
+        width: 100%;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        width: 100%;
+        height: 100%;
+       
+    }
+    #form>h1{
+        color:var(--accent);
+        font-size: 15vw;
+        font-weight: 900;
+    }
+    .input{
+        padding: 2% 25%;
+        border-bottom:var(--accent) 2px solid;
+       box-shadow:inset 5px 5px 5px black;
+    
+        
+    }
+    .input:focus{
+        outline: none;
+    }
+    .input::placeholder{
+        text-align: center;
+        color: var(--accent);
+        font-weight: 900;
+    }
+    #submit{
+       color: var(--background);
+       background-color: var(--accent);
+       padding: 2% 5%;
+       /* border-radius: 5px; */
+       font-weight: 900;
+       box-shadow: 5px 5px 5px black;
+       cursor: pointer;
+       /* border:1px solid black */
+    }
+    #address{
+        width: 100%;
+        height: 100%;
+        padding: 5% ;
+        /* background-color: red; */
+    }
+    #mapContainer{
+        width: 100%;
+        margin-bottom: 5%;
+        
+        border-radius: 10px;
+    }
+    #address>h3{
+        width: 100%;
+        text-align: left;
+        color:var(--background);
+        font-size:var(font-Normal);
+        font-weight: 500;
+    }
+    
+    .icon{
+        
+        color:var(--accent);
+        margin-right: 10px;
+    }
+    
 }

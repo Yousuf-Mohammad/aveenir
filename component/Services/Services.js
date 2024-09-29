@@ -9,12 +9,12 @@ const Services = () => {
         
         <div id='servicesImgContainer'>
             <Image src={Service1} alt="Services" id='services1Img'  />
-            <Image src={Service1} alt="Services" id='services2Img' />
-            <Image src={Service1} alt="Services" id='services3Img' />
-            <Image src={Service1} alt="Services" id='services4Img' />
-            <Image src={Service1} alt="Services" id='services5Img' />
-            <Image src={Service1} alt="Services" id='services6Img' />
-            <Image src={Service1} alt="Services" id='services7Img' />
+            <Image src={Service1} alt="Services" id='services1Img' />
+            <Image src={Service1} alt="Services" id='services1Img' />
+            <Image src={Service1} alt="Services" id='services1Img' />
+            <Image src={Service1} alt="Services" id='services1Img' />
+            <Image src={Service1} alt="Services" id='services1Img' />
+           
              
         </div>
 

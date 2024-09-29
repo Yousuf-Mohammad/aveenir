@@ -24,7 +24,8 @@ const Stripe = () => {
         loop={true}
         loopFillGroupWithBlank={false}
         autoplay={{
-          delay: 500,
+          delay: 1000,
+    
           disableOnInteraction: false,
         }}
         pagination={{
@@ -51,7 +52,7 @@ const Stripe = () => {
         loop={true}
         loopFillGroupWithBlank={false}
         autoplay={{
-          delay: 500,
+          delay: 400,
           disableOnInteraction: false,
         }}
         pagination={{
