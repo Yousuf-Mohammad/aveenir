@@ -31,10 +31,10 @@ const Contact = () => {
             </div>
 
             
-            <h1> <i className="ri-map-pin-fill icon"> </i>84/1, Malek Tower, Road-3, Shopnodhara Housing Ltd.Bosila Road, Mohammadpur</h1>
-            <h1><Link href="mailto:aveenirIT@gmail.com"> <i className="ri-mail-send-line icon"></i>aveenirIT@gmail.com</Link></h1>
-            <h1><i className="ri-time-fill icon"></i>   Sunday-Thursday(10am-7pm)</h1>
-            <h1><i className="ri-phone-fill icon"></i> +880 1955325537</h1>
+            <h3> <i className="ri-map-pin-fill icon"> </i>84/1, Malek Tower, Road-3, Shopnodhara Housing Ltd.Bosila Road, Mohammadpur</h3>
+            <h3><Link href="mailto:aveenirIT@gmail.com"> <i className="ri-mail-send-line icon"></i>aveenirIT@gmail.com</Link></h3>
+            <h3><i className="ri-time-fill icon"></i>   Sunday-Thursday(10am-7pm)</h3>
+            <h3><i className="ri-phone-fill icon"></i> +880 1955325537</h3>
             </div>
             
 

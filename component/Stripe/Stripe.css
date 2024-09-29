@@ -20,13 +20,34 @@
     gap: 4vw;
 
 }
-#stripe>h1{
+#stripe2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+
+}
+#stripeText>h1{
     font-size: 4vw;
     text-wrap: none;
     flex-shrink: 0;
 }
-#stripe>h1::after{
-    content:"→";
+h1{
+    font-size: 4vw;
+    text-wrap: none;
+    flex-shrink: 0;
+}
+#stripeText::after{
+    content:"←";
+    color: var(--accent);
+    font-size: 8vw;
+    font-weight: 900;
+    margin-left: 3vw;
+    line-height: 2vw;
+    
+}
+#stripe2>h1::after{
+    content:"←";
     color: var(--accent);
     font-size: 8vw;
     font-weight: 900;

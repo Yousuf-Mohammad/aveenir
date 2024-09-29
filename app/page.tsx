@@ -7,8 +7,6 @@ import Services from "@/component/Services/Services"
 import Client from "@/component/Clients/Client";
 import Footer from "@/component/Footer/Footer"
 import Contact from "@/component/Contact/Contact"
-// import {MapProvider} from "@/providers/map-provider/Map-provider"
-// import Map from "@/component/Map/Map"
 import Stripe from "@/component/Stripe/Stripe"
 export default function Home() {
   return (
@@ -18,6 +16,8 @@ export default function Home() {
       <Menu/>
       <TopPage/>
       <Stripe/>
+      {/* <Swipper/> */}
+      {/* <ClientMarquee/> */}
       <About/>
       <Products/>
       <Services/>
