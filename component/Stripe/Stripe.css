@@ -65,3 +65,56 @@ h1{
     }
 
 }
+@media (max-width: 1024px) {
+    #stripeContainer1{
+        margin-top: 8vh;
+        border-bottom: 4px double var(--foreground);
+        border-top: 4px double var(--foreground);
+        transform: rotate(-3deg);
+        position: relative;
+        background-color: var(--background);
+        z-index: 2;
+    }   
+    #stripeContainer2{
+        margin-top: 8vh;
+        border-bottom: 4px double var(--foreground);
+        border-top: 4px double var(--foreground);
+        transform: rotate(5deg);
+    }   
+    #stripe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4vw;
+        /* transition: all ease-in-out; */
+    
+    }
+    #stripe2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4vw;
+    
+    }
+    #stripeText>h1{
+        font-size: 4vw;
+        text-wrap: none;
+        flex-shrink: 0;
+    }
+    h1{
+        font-size: 4vw;
+        text-wrap: none;
+        flex-shrink: 0;
+    }
+    #stripeText::after{
+        content:"←";
+        color: var(--accent);
+        font-size: 9vw;
+        font-weight: 900;
+        margin-left: 3vw;
+        line-height: 2vw;
+        
+    }
+    
+
+}
