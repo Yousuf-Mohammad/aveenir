@@ -59,7 +59,7 @@ const Client = () => {
         <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
         <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
         
-      </Swiper>
+             </Swiper>
                 
               
               </div>

@@ -1,0 +1,31 @@
+.productSwiper{
+    width: 80%;
+}
+.productSlider{
+    width: 40%;
+    height: 80%;
+    padding: 5%;
+}
+.productImg{
+    width: 80%;
+}
+.productHeading{
+    font-size: 3vw;
+    font-weight: 900;
+    -webkit-text-stroke-color: var(--accent);
+    -webkit-text-stroke-width: 3px;
+    color:transparent
+}
+.productPara{
+    font-size: 1vw;
+    font-weight: 500;
+    color:var(--foreground)
+}
+#ourProducts{
+    text-align: center;
+    font-size: var(--font-Heading);
+    font-weight: 900;
+    -webkit-text-stroke-color: var(--accent);
+    -webkit-text-stroke-width: 3px;
+    color:transparent
+}
