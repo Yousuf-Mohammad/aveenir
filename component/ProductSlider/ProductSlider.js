@@ -43,7 +43,7 @@ const ProductSlider = () => {
           disableOnInteraction: false,
         }}
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-        className="mySwiper"
+        className="mySwiper productSwiper mx-auto" 
       >
         <SwiperSlide className='productSlider'>
             <Image src={image1} alt= "product image" className='productImg'  />
