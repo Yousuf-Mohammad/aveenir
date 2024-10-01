@@ -1,0 +1,9 @@
+.text-reveal-container{
+    width: 80%;
+   
+}
+
+
+#text-reveal{
+    font-size: var(--font-Normal);
+}

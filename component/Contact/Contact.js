@@ -15,9 +15,9 @@ const Contact = () => {
                     alert("Thank you for your message")
                 }}>
                     <h1>Let&apos;s Talk</h1>
-                    <input className='input ' type="text" placeholder='Your Name' />
-                    <input  className='input 'type="email" placeholder='Your Email Address' />
-                    <textarea className='input ' placeholder='Your Thoughts'></textarea>
+                    <input className='input ' required={true} type="text" placeholder='Your Name' />
+                    <input  className='input ' required={true} type="email" placeholder='Your Email Address' />
+                    <textarea className='input ' required={true} placeholder='Your Thoughts'></textarea>
                     <input id='submit' type="submit" />
                 </form>
             </div>

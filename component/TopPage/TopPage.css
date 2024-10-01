@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 5vw;
+    font-size: 2vw;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
@@ -32,6 +32,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 @media (max-width: 480px) {
     #videoContainer{
