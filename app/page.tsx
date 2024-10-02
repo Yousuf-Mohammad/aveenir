@@ -11,7 +11,8 @@ import Products2 from "@/component/ProductSlider/ProductSlider"
 // import Footer from "@/component/Footer/Footer"
 import Contact from "@/component/Contact/Contact"
 import Stripe from "@/component/Stripe/Stripe"
-import Portfolio from "@/component/Portfolio/Portfolio"
+import Featured from "@/component/FeaturedWork/FeaturedWork"
+// import Portfolio from "@/component/Portfolio/Portfolio"
 export default function Home() {
   return (
     
@@ -27,7 +28,8 @@ export default function Home() {
       <About/>
       <Products2/>
       <Services/>
-      <Portfolio/>
+      <Featured/>
+      {/* <Portfolio/> */}
       <Client/>
       <Contact/>
       

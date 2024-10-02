@@ -20,6 +20,7 @@ const Bebas = localFont({
   variable: "--font-bebas",
   weight: "100 900",
 });
+
 const Helvetica = localFont({
   src: "./fonts/HelveticaNowDisplay-Regular.ttf",
   variable: "--font-helvetica",
