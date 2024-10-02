@@ -26,7 +26,7 @@ const Services = () => {
                 <li id='service3Heading'>Software Development</li>
                 <li id='service4Heading'>Web Development</li>
                 <li id='service5Heading'>Graphical Solution</li>
-                <li id='service6Heading'>Photography and Videography</li>
+                <li id='service6Heading'>Photography & Video</li>
                 <li id='service7Heading'>VFX & Animation</li>
             </ul>
         </div>

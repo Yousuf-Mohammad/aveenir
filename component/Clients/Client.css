@@ -4,9 +4,9 @@
     text-align: center;
     margin: 3%;
     font-weight: 900;
-    -webkit-text-stroke-color: var(--accent);
-    -webkit-text-stroke-width: 3px;
-    color:transparent
+    /* -webkit-text-stroke-color: var(--accent);
+    -webkit-text-stroke-width: 3px; */
+    color:var(--accent);
 }
 #mapImg{
     width: 70%;
@@ -35,9 +35,9 @@
         text-align: center;
         margin: 3%;
         font-weight: 900;
-        -webkit-text-stroke-color: var(--accent);
-        -webkit-text-stroke-width: 3px;
-        color:transparent
+        /* -webkit-text-stroke-color: var(--accent);
+        -webkit-text-stroke-width: 3px; */
+        color:var(--accent);
     }
     #mapImg{
         width: 100%;
@@ -66,9 +66,9 @@
         text-align: center;
         margin: 3%;
         font-weight: 900;
-        -webkit-text-stroke-color: var(--accent);
-        -webkit-text-stroke-width: 3px;
-        color:transparent
+        /* -webkit-text-stroke-color: var(--accent);
+        -webkit-text-stroke-width: 3px; */
+        color:var(--accent);
     }
     #mapImg{
         width: 100%;

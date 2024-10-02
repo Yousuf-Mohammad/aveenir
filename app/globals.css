@@ -9,8 +9,9 @@
 }
 :root {
   --background: white;
-  --foreground: #424242;
+  --foreground: #555454;
   --accent:#F47F20;
+  --font-helvetica: 'Helvetica', sans-serif;
   --font-bebas: 'Bebas Neue', sans-serif;
   --font-Heading: 5vw;
   --font-Normal:2.2vw;

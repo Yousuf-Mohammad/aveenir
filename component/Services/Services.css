@@ -46,15 +46,17 @@
  #serviceText>h1{
      font-size: var(--font-Heading);
      font-weight: 900;
-     -webkit-text-stroke-color: var(--accent);
-     -webkit-text-stroke-width: 3px;
-     color:transparent;
+     /* -webkit-text-stroke-color: var(--accent);
+     -webkit-text-stroke-width: 3px; */
+     color:var(--accent);
      line-height: 4vw;
      margin-bottom: 2vw;
  }
  #serviceText>ul>li{
      font-size: var(--font-Normal);
      line-height: 3vw;
+     /* font-family: var(--font-helvetica); */
+     font-weight: 700;
  }
  #serviceText>ul ::before{
    content: "✔"; 
@@ -116,9 +118,9 @@
    #serviceText>h1{
        font-size: 15vw;
        font-weight: 900;
-       -webkit-text-stroke-color: var(--accent);
-       -webkit-text-stroke-width: 3px;
-       color:transparent;
+       /* -webkit-text-stroke-color: var(--accent);
+       -webkit-text-stroke-width: 3px; */
+       color:var(--accent);
        line-height: 15vw;
        margin-bottom: 6vw;
        text-align: center;
@@ -126,6 +128,7 @@
    #serviceText>ul>li{
       
        font-size: 6vw;
+       font-family: var(--font-helvetica);
        line-height: 6vw;
    }
    #serviceText>ul ::before{
@@ -141,8 +144,9 @@
 
    #servicesContainer{
       overflow-x: hidden;
+      overflow-y: hidden;
       width: 100vw;
-      height: 100vh;
+      height: 100%;
       padding: 2% 2%;
       /* background-color: yellow; */
       display: flex;
@@ -166,15 +170,15 @@
      /* background-color: greenyellow; */
       width: 100%;
       display: grid;
-      grid-template-columns: 1fr 1fr  1fr;
-      grid-template-rows: 1fr 1fr ;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
       
   
   }
    
    #services1Img{
-      width: 100%;
-      height: 100%;
+      width: 90%;
+      height: 90%;
       object-fit: cover; 
       object-position: center; 
       /* position: absolute;
@@ -189,9 +193,9 @@
    #serviceText>h1{
        font-size: 10vw;
        font-weight: 900;
-       -webkit-text-stroke-color: var(--accent);
-       -webkit-text-stroke-width: 3px;
-       color:transparent;
+       /* -webkit-text-stroke-color: var(--accent);
+       -webkit-text-stroke-width: 3px; */
+       color:var(--accent);
        line-height: 15vw;
        margin-bottom: 6vw;
        text-align: center;

@@ -20,6 +20,11 @@ const Bebas = localFont({
   variable: "--font-bebas",
   weight: "100 900",
 });
+const Helvetica = localFont({
+  src: "./fonts/HelveticaNowDisplay-Regular.ttf",
+  variable: "--font-helvetica",
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -34,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${Bebas.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${Bebas.variable} ${Helvetica.variable}antialiased`}
       >
         <Menu/>
         {children}

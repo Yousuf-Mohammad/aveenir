@@ -28,7 +28,10 @@ const SocialMediaManagement = () => {
 slidesPerView={1}
 spaceBetween={30}
 loop={true}
-autoplay={true}
+autoplay={{
+  delay: 1500,
+  disableOnInteraction: false,
+}}
 loopFillGroupWithBlank={false}
 pagination={{
 clickable: true,
