@@ -25,7 +25,7 @@ import Image from 'next/image';
 const Development = () => {
   return (
     <div name="Development" id='development'>
-                <h1 id='developmentHeading'> Robust Software Developed by us</h1>
+                <h1 id='developmentHeading'> Creative Solutions We Deliver</h1>
                 <Swiper
         slidesPerView={1}
         spaceBetween={30}
