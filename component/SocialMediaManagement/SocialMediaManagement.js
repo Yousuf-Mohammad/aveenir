@@ -25,27 +25,43 @@ const SocialMediaManagement = () => {
     <div name="Development" id='development'>
     <h1 id='developmentHeading'>Social Media Management by us</h1>
     <Swiper
-slidesPerView={1}
-spaceBetween={30}
-loop={true}
-autoplay={{
-  delay: 1500,
-  disableOnInteraction: false,
-}}
-loopFillGroupWithBlank={false}
-pagination={{
-clickable: true,
-}}
-navigation={true}
-modules={[Pagination, Navigation ,Autoplay]}
-className="mySwiper developmentSwiper"
->
-<SwiperSlide> <Image src={image1}  alt="image1" id="image1" className='swiperImage'  /></SwiperSlide>
-<SwiperSlide> <Image src={image2} alt="image1" id="image1"  className='swiperImage' /></SwiperSlide>
-<SwiperSlide> <Image src={image3} alt="image1" id="image1"  className='swiperImage' /></SwiperSlide>
-<SwiperSlide> <Image src={image4} alt="image1" id="image1"  className='swiperImage' /></SwiperSlide>
-
-</Swiper>
+        slidesPerView={4}
+        spaceBetween={1}
+      
+        // freeMode={true}
+        loop={true}
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
+        loopFillGroupWithBlank={false}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay , Pagination, Navigation]}
+        className="mySwiper developmentSwiper"
+      >
+        <SwiperSlide><Image src={image1} alt='image' className ="socialImg"  /></SwiperSlide>
+        <SwiperSlide><Image src={image2} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image3} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image4} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image1} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image2} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image3} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image4} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image1} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image2} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image3} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image4} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image1} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image2} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image3} alt='image' className ="socialImg"/></SwiperSlide>
+        <SwiperSlide><Image src={image4} alt='image' className ="socialImg"/></SwiperSlide>
+        
+        
+        
+             </Swiper>
 
 </div>
   )

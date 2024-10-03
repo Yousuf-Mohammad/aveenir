@@ -49,7 +49,7 @@ const Menu = () => {
                     <Link href="/services"  onClick={toggleMenu}className="menuLink">Services</Link>
                     <Link href="/about" onClick={toggleMenu} className="menuLink">About</Link>
                     <Link href="/contact" onClick={toggleMenu} className="menuLink">Contact</Link>
-                    <Link href="/ourWorks"   onClick={toggleMenu}className="menuLink incomplete">Our Works</Link>
+                    <Link href="/ourWorks"   onClick={toggleMenu}className="menuLink">Our Works</Link>
                     <Link href="/Packages"  onClick={toggleMenu} className="menuLink incomplete">Packages</Link>
             </div>
             <div id='socials'>
