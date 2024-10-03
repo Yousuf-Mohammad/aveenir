@@ -11,6 +11,7 @@
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@react-google-maps/api": "^2.19.3",
+    "flowbite-react": "^0.10.2",
     "gsap": "^3.12.5",
     "jquery": "^3.7.1",
     "lenis": "^1.1.13",

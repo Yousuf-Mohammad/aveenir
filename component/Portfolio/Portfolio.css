@@ -1,4 +1,5 @@
 #portfolioHeading{
+    margin-top: 5%;
     text-align: center;
     font-size: var(--font-Heading);
     font-weight: 900;
@@ -14,8 +15,8 @@
     /* margin-top: 1%; */
     margin-bottom: 5%;
     padding: 6%;
-    width: 80vw;
-    height: 100vh;
+    width: 90%;
+    height: 100%;
     position: relative;
     color: var(--background);
     background-color: var(--foreground);
