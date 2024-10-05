@@ -20,53 +20,54 @@ import move  from "@/public/Move.png"
 const Client = () => {
   return (
     <div>
-        
+      <h1 id='mapHeading'>Our Clients Around the globe</h1>
+        <div id="clientScroller">
+
+{/* placeholder for scroller */}
+
+    <div id="clientScrollerPlaceholder">
+    <Swiper
+slidesPerView={4}
+spaceBetween={1}
+
+// freeMode={true}
+loop={true}
+loopFillGroupWithBlank={false}
+autoplay={{
+delay: 500,
+disableOnInteraction: false,
+}}
+pagination={{
+clickable: true,
+}}
+modules={[Autoplay]}
+className="mySwiper"
+>
+<SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+
+   </Swiper>
+      
+    
+    </div>
+
+
+
+        </div>
         <div id="clientMap">
-            <h1 id='mapHeading'>Our Clients Around the globe</h1>
+            
             <Image src={map} alt="Map" id="mapImg" />
         </div>
 
-        <div id="clientScroller">
-
-          {/* placeholder for scroller */}
-
-              <div id="clientScrollerPlaceholder">
-              <Swiper
-        slidesPerView={4}
-        spaceBetween={1}
-      
-        // freeMode={true}
-        loop={true}
-        loopFillGroupWithBlank={false}
-        autoplay={{
-          delay: 500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Autoplay]}
-        className="mySwiper"
-      >
-        <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
-        <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
         
-             </Swiper>
-                
-              
-              </div>
-
-       
-
-        </div>
 
         <div id="clientNumber">
           <div className="number">
