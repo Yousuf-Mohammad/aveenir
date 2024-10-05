@@ -50,20 +50,42 @@
     grid-template-rows: 1fr 1fr 1fr;
     
 }
+<<<<<<< HEAD
 
 
+=======
+#image1{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    
+}
+#image2{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+   
+}
+#image3{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    grid-row:1/4;
+    
+}
+>>>>>>> 3958f1272de5be4a6d3f07ccee2357cf4495e4a5
 #imageContainer1{
     width: 100%;
     height: 100%;
     grid-row:1/3;
-    background-color: red;
+    /* background-color: red; */
     overflow: hidden;
     border: 1px solid black;
 }
 #imageContainer2{
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     grid-column: 2/4;
     overflow: hidden;
     border: 1px solid black;
@@ -71,14 +93,14 @@
 #imageContainer3{
     width: 100%;
     height: 100%;
-    background-color: green;
+    /* background-color: green; */
     overflow: hidden;
     border: 1px solid black;
 }
 #imageContainer4{
     width: 100%;
     height: 100%;
-    background-color:yellowgreen;
+    /* background-color:yellowgreen; */
     grid-column: 1/3;
     overflow: hidden;
     border: 1px solid black;
@@ -86,7 +108,7 @@
 #imageContainer5{
     height: 100%;
     width: 100%;
-    background-color: cyan;
+    /* background-color: cyan; */
     grid-row: 2/4;
     grid-column: 3/4;
     overflow: hidden;
@@ -117,6 +139,7 @@
 #image{
     width: inherit;
     height: inherit;
+<<<<<<< HEAD
     object-fit:cover;
     
     /* object-position: bottom; */
@@ -151,3 +174,29 @@
     color: var(--accent);
     box-shadow: 3px 3px 10px var(--foreground);
 }
+=======
+    object-fit:cover;   
+}
+#image:hover{
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+    cursor: pointer;
+
+}
+
+#seeMore{
+    width: 150px ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: var(--font-Normal);
+    font-weight: 700;
+    color:var(--background);
+    background-color: var(--accent);
+    text-align: center;
+    margin-top: 1%;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+>>>>>>> 3958f1272de5be4a6d3f07ccee2357cf4495e4a5

@@ -16,6 +16,15 @@
     gap: 1vw;
     padding: 1%;
 }
+<<<<<<< HEAD
+=======
+.swiperImage{
+    width: 70vw;
+    height: 70vh;
+    object-fit: contain;
+}
+
+>>>>>>> 3958f1272de5be4a6d3f07ccee2357cf4495e4a5
 .socialImg{
     width: 80%;
 }

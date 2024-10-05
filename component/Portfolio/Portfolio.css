@@ -1,5 +1,9 @@
 #portfolioHeading{
+<<<<<<< HEAD
     padding-top: 10%;
+=======
+    margin-top: 5%;
+>>>>>>> 3958f1272de5be4a6d3f07ccee2357cf4495e4a5
     text-align: center;
     font-size: var(--font-Heading);
     font-weight: 900;
