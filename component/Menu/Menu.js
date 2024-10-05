@@ -22,7 +22,7 @@ const Menu = () => {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     }
-  return (
+    return (
     <div className='menuContainer' >
         {/* visible on initial load */}
         {isMenuOpen? <div className="menuOverlay">

@@ -1,19 +1,21 @@
 .menuContainer{
     width: 100%;
-    /* background-color: yellow; */
-    
-  
     position: fixed;
-    z-index: 4;
+    z-index: 6;
 }
+
 .menuBar{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     /* background-color:  rgba(250, 235, 215, 0.815); */
-    padding: 2% 2%;
+    /* padding: 2% 2%; */
+    padding: 0% 2%;
+    position: fixed;
+    z-index: 4;
+    /* z-index: 4; */
     
     
 }
@@ -33,6 +35,8 @@
     background-color: rgba(250, 235, 215, 0.815);
     padding: 2%;
     transition: all 0.5s ease-in-out;
+  
+    
 }
 .menuOverlayBar{
     

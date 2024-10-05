@@ -3,7 +3,7 @@ import React from 'react'
 import "./Client.css"
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import ClientReview from "@/component/ClientReview/ClientReview"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -66,6 +66,30 @@ const Client = () => {
 
        
 
+        </div>
+
+        <div id="clientNumber">
+          <div className="number">
+            <h1>15</h1>
+            <p>Years Experience</p>
+          </div>
+          <div className="number">
+            <h1>341</h1>
+            <p>Completed Projects</p>
+          </div>
+          <div className="number">
+            <h1>200+</h1>
+            <p>Happy Clients</p>
+          </div>
+          <div className="number">
+            <h1>6</h1>
+            <p>Countries Served</p>
+          </div>
+         
+        </div>
+        
+        <div id="clientReview">
+            <ClientReview/>
         </div>
 
     </div>

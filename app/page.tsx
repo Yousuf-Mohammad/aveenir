@@ -12,6 +12,7 @@ import Products2 from "@/component/ProductSlider/ProductSlider"
 import Contact from "@/component/Contact/Contact"
 import Stripe from "@/component/Stripe/Stripe"
 import Featured from "@/component/FeaturedWork/FeaturedWork"
+// import ClientReview from "@/component/ClientReview/ClientReview"
 // import Portfolio from "@/component/Portfolio/Portfolio"
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <Services/>
       <Featured/>
       {/* <Portfolio/> */}
+      {/* <ClientReview/> */}
       <Client/>
       <Contact/>
       

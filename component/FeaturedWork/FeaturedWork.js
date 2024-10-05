@@ -29,9 +29,10 @@ const FeaturedWork = () => {
                 */}
         </div>
         <div id= "grid2">
-               <Image src={image1} alt="image1" id="image1" />
-               <Image src={image2} alt="image2" id="image2" />
-               <Image src={image3} alt="image3" id="image3" />
+              <div id="imageContainer6"><Image src={image1} alt="image" id="image" /></div>
+              <div id="imageContainer7"><Image src={image2} alt="image" id="image" /></div>
+              <div id="imageContainer8"><Image src={image3} alt="image" id="image" /></div>
+            
         </div>
 
         </div>

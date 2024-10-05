@@ -1,24 +1,21 @@
-#development{
+#socialContainer{
     width: 100%;
     height: 100%;
     /* background-color: yellow; */
 }
-#developmentHeading{
+#socialHeading{
     text-align: center;
     font-size: 3vw;
 }
 
-#developentSwiper{
+#socialImageContainer{
     width: 100%;
     height: 100%;
-    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1vw;
+    padding: 1%;
 }
-.swiperImage{
-    width: 70vw;
-    height: 70vh;
-    object-fit: contain;
-}
-
 .socialImg{
     width: 80%;
 }
