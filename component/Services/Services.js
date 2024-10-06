@@ -3,9 +3,9 @@ import './Services.css'
 
 import Image from 'next/image'
 import Service1 from "@/public/digiMarket.jpg"
-import Service2 from "@/public/graphicSol.jpg"
+import Service2 from "@/public/graphicDesign.jpg"
 import Service3 from "@/public/photoGraphy.jpg"
-import Service4 from "@/public/softwareDev.jpg"
+import Service4 from "@/public/development.jpg"
 import Service5 from "@/public/vfx.gif"
 import Service6 from "@/public/Mario_1-gif.gif"
 

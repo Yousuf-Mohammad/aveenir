@@ -52,27 +52,27 @@ const ProductSlider = () => {
         <SwiperSlide className='productSlider'>
             <Image src={image1} alt= "product image" className='productImg'  />
             <h1 className='productHeading'> ERP SOFTWARE</h1>
-            <p className='productPara'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+            <p className='productPara'>Enterprise Resource Planning (ERP) software is a comprehensive solution designed to streamline and integrate core business processes across an organization. By unifying functions such as finance, supply chain, human resources, and operations, ERP systems provide real-time data, enhance decision-making, and improve efficiency. Ideal for businesses of all sizes, ERP software helps automate workflows, reduce operational costs, and ensure seamless collaboration between departments, driving overall business growth and productivity.</p>
         </SwiperSlide>
         <SwiperSlide className='productSlider'>
             <Image src={image2} alt= "product image" className='productImg'  />
             <h1 className='productHeading'> POS SOFTWARE</h1>
-            <p className='productPara'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+            <p className='productPara'>Point of Sale (POS) software is a powerful tool that streamlines sales transactions and manages essential business operations. Designed for retail and hospitality industries, POS systems enable businesses to process payments, track inventory, and manage customer data in real-time. With features like sales reporting, employee management, and integration with accounting systems, POS software enhances efficiency, improves customer service, and provides valuable insights to help businesses grow and make informed decisions.</p>
         </SwiperSlide>
         <SwiperSlide className='productSlider'>
             <Image src={image3} alt= "product image" className='productImg'  />
             <h1 className='productHeading'>Location based Software</h1>
-            <p className='productPara'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+            <p className='productPara'>Location-based software leverages geographic data to deliver tailored services and solutions based on a user`&apos`s or asset`&apos`s real-time location. Ideal for industries like logistics, retail, and transportation, this software enhances tracking, navigation, and customer engagement. It enables businesses to optimize delivery routes, monitor fleet movements, and deliver personalized marketing based on proximity. By providing actionable insights, location-based software improves operational efficiency and drives data-driven decision-making for enhanced business outcomes.</p>
         </SwiperSlide>
         <SwiperSlide className='productSlider'>
             <Image src={image4} alt= "product image" className='productImg'  />
             <h1 className='productHeading'>Hospital Management</h1>
-            <p className='productPara'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+            <p className='productPara'>Hospital Management Software is a comprehensive solution designed to streamline and automate the administrative, clinical, and financial operations of healthcare facilities. It integrates patient records, appointment scheduling, billing, inventory management, and more into a single platform. This software enhances patient care by improving data accuracy, reducing paperwork, and optimizing resource allocation. Ideal for hospitals and clinics, it helps improve efficiency, ensure regulatory compliance, and deliver better healthcare outcomes through seamless coordination.</p>
         </SwiperSlide>
         <SwiperSlide className='productSlider'>
             <Image src={image5} alt= "product image" className='productImg'  />
             <h1 className='productHeading'> E-Commerce Software</h1>
-            <p className='productPara'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+            <p className='productPara'>E-commerce software is a powerful platform designed to help businesses manage their online stores and transactions seamlessly. It enables companies to build and customize websites, manage product catalogs, process payments, and handle inventory. With features like order tracking, customer management, and marketing tools, e-commerce software enhances the shopping experience, improves operational efficiency, and drives sales. Ideal for businesses of all sizes, it supports scalable growth and offers robust analytics for informed decision-making.</p>
         </SwiperSlide>
         
           

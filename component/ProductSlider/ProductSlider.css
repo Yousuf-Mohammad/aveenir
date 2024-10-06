@@ -13,6 +13,7 @@
 }
 .productHeading{
     font-size: 3vw;
+    line-height: 3vw;
     font-weight: 900;
     text-align: center;
     /* -webkit-text-stroke-color: var(--accent);
