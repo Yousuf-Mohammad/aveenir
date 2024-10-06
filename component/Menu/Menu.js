@@ -6,8 +6,8 @@ import Image from 'next/image'
 import 'remixicon/fonts/remixicon.css'
 import "./Menu.css"
 
-import logo from "@/public/logo-removebg-preview (1).png"
-import logoWhite from "@/public/aveenir-white.png"
+import logo from "@/public/logo-orange.png"
+// import logoWhite from "@/public/aveenir-white.png"
 
 // const menuLinks=[
 //     {path:"/", label:"Home"},
@@ -63,7 +63,7 @@ const Menu = () => {
             </div>
         </div>:<div className="menuBar">
             <div className="menuLogo">
-            <Link href="/"><Image src={logoWhite} alt="Company Logo" className='menuLogoImg' /></Link>
+            <Link href="/"><Image src={logo} alt="Company Logo" className='menuLogoImg' /></Link>
             </div>
             <div className="menuOpen">
                 <i className="ri-menu-3-fill" onClick={toggleMenu}></i>

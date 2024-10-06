@@ -219,11 +219,11 @@
     }
     .menuLogoImg{
         cursor: pointer;
-        min-width: 30vw;
+        min-width: 20vw;
     }
     .menuOpen{
         cursor: pointer;
-        font-size:7vw;
+        font-size:5vw;
         color:var(--accent);
     }
     
@@ -246,7 +246,7 @@
     .menuClose{
     
         cursor: pointer;
-        font-size:10vw;
+        font-size:5vw;
         color:var(--accent);
     }
     .menuLinks{
@@ -259,13 +259,13 @@
         /* font-size: 4vw; */
         text-transform: uppercase;
         letter-spacing: 0.7vw;
-        line-height: 7vw;
+        line-height: 5vw;
         font-family: var(--font-bebas);
         
     }
     .menuLink{
         cursor: pointer;
-        font-size:7vw;
+        font-size:5vw;
         color:var(--accent);
     
     }
@@ -280,7 +280,7 @@
     }
     
     #socials>h1{
-        font-size: 3vw;
+        font-size: 2.5vw;
         font-family: var(--font-bebas);
         text-transform: uppercase;
         letter-spacing: -0.02vw;
@@ -289,7 +289,8 @@
     }
     
     #socialIcons{
-        font-size: 5vw;
+        font-size: 4vw;
+        
     }
     
     .incomplete{
