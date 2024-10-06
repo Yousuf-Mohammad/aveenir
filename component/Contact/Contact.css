@@ -1,6 +1,6 @@
 #contactContainer{
     width: 80vw;
-    height: 80vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@
     width: 100%;
     text-align: left;
     color:var(--background);
-    font-size:var(--font-Normal);
+    font-size:1.2vw;
     font-weight: 500;
 }
 
@@ -91,7 +91,7 @@
 @media (max-width: 1024px) and (min-width: 481px) {
     #contactContainer{
         width: 80vw;
-        height: fit-content;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -184,7 +184,7 @@
 @media (max-width: 480px) {
     #contactContainer{
         width: 95vw;
-        height: fit-content;
+        height:100%;
         display: flex;
         flex-direction: column;
         justify-content: center;

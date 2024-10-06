@@ -1,15 +1,16 @@
 "use client"
 import React from 'react'
-import Image from 'next/image';
+// import Image from 'next/image';
 import "./About.css"
-import photo from "@/public/office2.jpeg"
+// import photo from "@/public/office2.jpeg"
 
 
 const About = () => {
     return (
     <div id='about'>
         <div id='aboutImgContainer'>
-            <Image src={photo} alt="about image" id='aboutImg' />
+            {/* <Image src={photo} alt="about image" id='aboutImg' /> */}
+            <video id='aboutImg' autoPlay muted loop src="about us.mp4" width={"100%"} height={"100%"}></video>
             {/* https://wearenext.io/ */}
         </div>
 

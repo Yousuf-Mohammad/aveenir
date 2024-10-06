@@ -53,8 +53,8 @@
      margin-bottom: 2vw;
  }
  #serviceText>ul>li{
-     font-size: var(--font-Normal);
-     line-height: 3vw;
+     font-size: 2.5vw;
+     line-height: 2.5vw;
      /* font-family: var(--font-helvetica); */
      font-weight: 700;
  }

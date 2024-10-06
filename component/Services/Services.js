@@ -2,18 +2,26 @@ import React from 'react'
 import './Services.css'
 
 import Image from 'next/image'
-import Service1 from "@/public/service1.jpg"
+import Service1 from "@/public/digiMarket.jpg"
+import Service2 from "@/public/graphicSol.jpg"
+import Service3 from "@/public/photoGraphy.jpg"
+import Service4 from "@/public/softwareDev.jpg"
+import Service5 from "@/public/vfx.gif"
+import Service6 from "@/public/Mario_1-gif.gif"
+
+
 const Services = () => {
   return (
     <div id='servicesContainer'>
         
         <div id='servicesImgContainer'>
             <Image src={Service1} alt="Services" id='services1Img'  />
-            <Image src={Service1} alt="Services" id='services1Img' />
-            <Image src={Service1} alt="Services" id='services1Img' />
-            <Image src={Service1} alt="Services" id='services1Img' />
-            <Image src={Service1} alt="Services" id='services1Img' />
-            <Image src={Service1} alt="Services" id='services1Img' />
+            <Image src={Service2} alt="Services" id='services1Img' />
+            <Image src={Service3} alt="Services" id='services1Img' />
+            <Image src={Service4} alt="Services" id='services1Img' />
+            <Image src={Service5} alt="Services" id='services1Img' />
+            <Image src={Service6} alt="Services" id='services1Img' />
+            
            
              
         </div>

@@ -3,7 +3,7 @@ import React from 'react'
 import "./Client.css"
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import ClientReview from "@/component/ClientReview/ClientReview"
+// import ClientReview from "@/component/ClientReview/ClientReview"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -89,9 +89,9 @@ style={{
          
         </div>
         
-        <div id="clientReview">
+        {/* <div id="clientReview">
             <ClientReview/>
-        </div>
+        </div> */}
 
     </div>
   )
