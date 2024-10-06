@@ -49,7 +49,7 @@
 
 @media (max-width: 480px) {
     #mapHeading{
-        font-size: 15vw;
+        font-size: 10vw;
         line-height: 15vw;
         text-align: center;
         margin: 3%;
