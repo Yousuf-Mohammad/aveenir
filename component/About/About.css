@@ -147,14 +147,14 @@
     }
     #aboutTextContainer>h2{
         width: 100%;
-        font-size: 4vw;
+        font-size: 2vw;
         font-weight: 500;
-        line-height: 4vw;
+        line-height: 2vw;
         /* text-align: justify; */
     }
     #aboutTextContainer>h1{
         width: 100%;
-        font-size: 10vw;
+        font-size: 7vw;
         /* text-align: justify; */
         text-align: center;
         font-weight: 900;

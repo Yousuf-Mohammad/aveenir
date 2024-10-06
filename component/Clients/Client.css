@@ -98,9 +98,9 @@
     }
     
 }
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 481px) {
     #mapHeading{
-        font-size: 10vw;
+        font-size: 7vw;
         line-height: 15vw;
         text-align: center;
         margin: 3%;
@@ -127,5 +127,24 @@
         border-bottom: 3px solid var(--foreground);
         margin-bottom: 100px;
         position: relative;
+    }
+    #clientNumber{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5%;
+        text-align: center; 
+        border-bottom: 5px double var(--foreground);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    
+    .number>p{
+        font-size: 3vw;
+    }
+    .number>h1{
+        font-size: 6vw;
+        color:var(--accent)
     }
 }

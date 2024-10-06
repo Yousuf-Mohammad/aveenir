@@ -140,7 +140,7 @@
    }
   
  }
- @media (max-width: 1024px) {
+ @media (max-width: 1024px) and (min-width: 481px) {
 
    #servicesContainer{
       overflow-x: hidden;
@@ -191,19 +191,19 @@
    
   
    #serviceText>h1{
-       font-size: 10vw;
+       font-size: 7vw;
        font-weight: 900;
        /* -webkit-text-stroke-color: var(--accent);
        -webkit-text-stroke-width: 3px; */
        color:var(--accent);
-       line-height: 15vw;
+       line-height: 7vw;
        margin-bottom: 6vw;
        text-align: center;
    }
    #serviceText>ul>li{
       
-       font-size: 6vw;
-       line-height: 6vw;
+       font-size: 4vw;
+       line-height: 4vw;
    }
    #serviceText>ul ::before{
      content: "✔"; 

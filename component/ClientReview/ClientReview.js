@@ -1,3 +1,5 @@
+
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import "./ClientReview.scss"
@@ -11,7 +13,7 @@ import 'swiper/css/pagination';
 
 // import './styles.css';
 
-// import required modules
+
 import {Autoplay} from 'swiper/modules'; 
 
 import image1 from "@/public/client(1).jpg"
@@ -38,17 +40,17 @@ const ClientReview = () => {
 			spaceBetween: 10,
 			},
 			768: {
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 10,
 			},
 			1024: {
-			slidesPerView: 3,
+			slidesPerView: 2,
 			spaceBetween: 10,
 			},
 		}}
         modules={[Autoplay]}
         className="mySwiper"
-        style={{paddingTop:"10vw"}}
+        style={{paddingTop:"10vw" , marginLeft:"auto", marginRight:"auto"}}
         >
         <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"20vw"}}>
         <div className="testimonial" >

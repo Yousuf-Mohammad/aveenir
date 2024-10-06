@@ -33,7 +33,7 @@
     /* height: 10%; */
     margin-top: -10%;
     position: relative;
-    z-index: 4;
+    z-index: 0;
     /* background-color: yellow; */
     /* margin-top: 5%; */
 }
@@ -91,8 +91,7 @@
         align-items: center;
         gap: 0vw;
         width: 100%;
-        position: relative;
-        z-index: 4;
+        z-index: 0;
         /* height: 10%; */
         margin-top: -15%;
         margin-bottom: 5%;
@@ -114,6 +113,75 @@
     #portfolioBtnActive{
         height: 50px;
         font-size: 4.5vw;
+        line-height: 4.5vw;
+        border: 1px solid black;
+        cursor: pointer;
+        font-weight: 700;
+        padding: .5% 2%;
+        color: var(--accent);
+        background-color: var(--background);
+    }
+    
+
+}
+@media (max-width: 1024px) and (min-width: 481px) {
+    #portfolioHeading{
+        text-align: center;
+        font-size: 7vw;
+        font-weight: 900;
+        font-size:10vw ;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        /* -webkit-text-stroke-color: var(--accent);
+        -webkit-text-stroke-width: 3px; */
+        color:var(--accent);
+    }
+    #portfolioContainer{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        /* margin-top: 1%; */
+        margin-bottom: 5%;
+        padding: 6%;
+        width: 80vw;
+        height: 100%;
+        position: relative;
+        color: var(--background);
+        background-color: var(--foreground);
+        box-shadow: 10px 10px 20px var(--foreground);
+    }
+    
+    #portfolioBtnContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0vw;
+        width: 100%;
+        z-index: 0;
+       
+        /* height: 10%; */
+        margin-top: -15%;
+        margin-bottom: 5%;
+        /* background-color: yellow; */
+        /* margin-top: 5%; */
+    }
+    #portfolioBtn{
+        width: fit-content;
+        height: 50px;
+        cursor: pointer;
+        font-size: 3vw;
+        line-height: 4vw;
+        font-weight: 700;
+        padding: .5% 2%;
+        color: var(--background);
+        background-color: var(--accent);
+        border: 1px solid black;
+        z-index: 0;
+    }
+    #portfolioBtnActive{
+        height: 50px;
+        font-size: 3vw;
         line-height: 4.5vw;
         border: 1px solid black;
         cursor: pointer;

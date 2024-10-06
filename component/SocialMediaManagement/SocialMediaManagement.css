@@ -50,3 +50,28 @@
         width: 90%;
     }
 }
+@media (max-width: 1024px) and (min-width: 481px) {
+    #socialContainer{
+        width: 100%;
+        height: 100%;
+        /* background-color: yellow; */
+    }
+    #socialHeading{
+        text-align: center;
+        font-size: 8vw;
+    }
+    
+    #socialImageContainer{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 2vw;
+        padding: 1vw;
+        
+    }
+    
+    .socialImg{
+        width: 90%;
+    }
+}
