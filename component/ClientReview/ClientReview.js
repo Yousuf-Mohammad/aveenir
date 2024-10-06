@@ -19,8 +19,8 @@ const ClientReview = () => {
   return (
     <div >
         <Swiper
-        slidesPerView={3}
-        spaceBetween={1}
+        // slidesPerView={3}
+        // spaceBetween={1}
 
         // freeMode={true}
         loop={true}
@@ -32,11 +32,25 @@ const ClientReview = () => {
         pagination={{
         clickable: true,
         }}
+		breakpoints={{
+			480: {
+			slidesPerView: 1,
+			spaceBetween: 10,
+			},
+			768: {
+			slidesPerView: 2,
+			spaceBetween: 10,
+			},
+			1024: {
+			slidesPerView: 3,
+			spaceBetween: 10,
+			},
+		}}
         modules={[Autoplay]}
         className="mySwiper"
-        style={{height:"100%" ,margin:"auto" ,}}
+        style={{paddingTop:"10vw"}}
         >
-        <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"10vw"}}>
+        <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"20vw"}}>
         <div className="testimonial" >
 	<span className="open quote">“</span>
 	<div className="image">
@@ -45,13 +59,13 @@ const ClientReview = () => {
 	</div>
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, earum! Sunt aut consectetur deserunt perspiciatis provident fugiat pariatur assumenda quo similique at inventore tempore, consequuntur praesentium. Animi recusandae saepe architecto?</p>
 	<div className="source">		
-		<span>Omuk Ali</span>
+		<span>Omuk Ali <br />CEO , Tomuk Org BD</span>
 	</div>
 	<span className="close quote">”</span>
         </div>
 
         </SwiperSlide>
-        <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"10vw"}}>
+        <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"20vw"}}>
         <div className="testimonial" >
 	<span className="open quote">“</span>
 	<div className="image">
@@ -60,13 +74,13 @@ const ClientReview = () => {
 	</div>
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, earum! Sunt aut consectetur deserunt perspiciatis provident fugiat pariatur assumenda quo similique at inventore tempore, consequuntur praesentium. Animi recusandae saepe architecto?</p>
 	<div className="source">		
-		<span>Omuk Ali</span>
+		<span>Omuk Ali <br />CEO , Tomuk Org BD</span>
 	</div>
 	<span className="close quote">”</span>
         </div>
 
         </SwiperSlide>
-        <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"10vw"}}>
+        <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"20vw"}}>
         <div className="testimonial" >
 	<span className="open quote">“</span>
 	<div className="image">
@@ -75,13 +89,13 @@ const ClientReview = () => {
 	</div>
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, earum! Sunt aut consectetur deserunt perspiciatis provident fugiat pariatur assumenda quo similique at inventore tempore, consequuntur praesentium. Animi recusandae saepe architecto?</p>
 	<div className="source">		
-		<span>Omuk Ali</span>
+		<span>Omuk Ali <br />CEO , Tomuk Org BD</span>
 	</div>
 	<span className="close quote">”</span>
         </div>
 
         </SwiperSlide>
-        <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"10vw"}}>
+        <SwiperSlide style={{height:"100%",paddingTop:"10vw" ,paddingBottom:"20vw"}}>
         <div className="testimonial" >
 	<span className="open quote">“</span>
 	<div className="image">
@@ -90,13 +104,12 @@ const ClientReview = () => {
 	</div>
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, earum! Sunt aut consectetur deserunt perspiciatis provident fugiat pariatur assumenda quo similique at inventore tempore, consequuntur praesentium. Animi recusandae saepe architecto?</p>
 	<div className="source">		
-		<span>Omuk Ali</span>
+		<span>Omuk Ali <br />CEO , Tomuk Org BD</span>
 	</div>
 	<span className="close quote">”</span>
         </div>
 
         </SwiperSlide>
-        
         
         
         

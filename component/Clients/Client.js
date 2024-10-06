@@ -21,11 +21,9 @@ const Client = () => {
   return (
     <div>
       <h1 id='mapHeading'>Our Clients Around the globe</h1>
-        <div id="clientScroller">
+      
 
-{/* placeholder for scroller */}
-
-    <div id="clientScrollerPlaceholder">
+        <div id="clientScrollerPlaceholder">
     <Swiper
 slidesPerView={4}
 spaceBetween={1}
@@ -42,25 +40,27 @@ clickable: true,
 }}
 modules={[Autoplay]}
 className="mySwiper"
->
+style={{
+  height: "100%",
+}}>
 <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
 <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
 <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
 <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
-<SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
 <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
 <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
 <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
 <SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
 <SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={kajolDhara} alt="logo" width={150} /></SwiperSlide>
+<SwiperSlide><Image src={move} alt="logo" width={150} /></SwiperSlide>
+
 
    </Swiper>
       
     
-    </div>
-
-
-
         </div>
         <div id="clientMap">
             
