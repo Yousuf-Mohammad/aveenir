@@ -1,0 +1,39 @@
+#exceptionality{
+    width: 90vw;
+    height: 100%;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#exceptionality>h1{
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 900;
+    margin-bottom: 5%;
+    /* -webkit-text-stroke-color: var(--accent);
+    -webkit-text-stroke-width: 3px; */
+    color:var(--accent);}
+
+ #exceptionality>ul{
+        text-align: left;
+        font-size: 1.5vw;
+        font-weight: 700;
+        margin-bottom: 5%;
+        list-style:circle;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: var(--font-helvetica);
+        }
+
+        #exceptionality>p{
+            text-align: left;
+            font-size: 1.5vw;
+            font-weight: 700;
+            margin-bottom: 5%;
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: var(--font-helvetica);}
+        

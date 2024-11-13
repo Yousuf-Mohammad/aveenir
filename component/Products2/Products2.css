@@ -1,0 +1,31 @@
+#productGrid{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 2vw;
+    padding: 2% 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#productContainer{
+    border: 1px solid lightslategray;
+    box-shadow: 2px 2px 2px lightgray;
+    border-radius: 10px;
+    padding: 5% 5%;
+}
+
+.productHeading{
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 900;
+    color:var(--accent);
+}
+#heading{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 900;
+    color: var(--accent);
+
+}

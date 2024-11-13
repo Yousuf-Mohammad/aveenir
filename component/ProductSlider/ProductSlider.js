@@ -9,6 +9,8 @@ import image3 from "@/public/locationbasedsharingsystem.webp"
 import image4 from "@/public/hospital.webp"
 import image5 from "@/public/ecommerce.webp"
 
+
+
 // Import Swiper styles
 import 'swiper/css';
 // 6

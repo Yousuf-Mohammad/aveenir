@@ -8,21 +8,24 @@
   box-sizing: border-box;
 }
 :root {
-  --background: white;
-  --foreground: #555454;
+  --background: #1f1f1f;
+   /* --background:rgb(24 24 27); */
+  /* --foreground: white; */
+  --foreground: #dadada;
   --accent:#F47F20;
   --font-helvetica: 'Helvetica', sans-serif;
   --font-bebas: 'Bebas Neue', sans-serif;
   /* --font-oswald: 'Oswald', sans-serif; */
-  --font-Heading: 5vw;
+  --font-Heading: 8vw;
   --font-Normal:1.5vw;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: white;
-    --foreground: #555454;
+    --background: #1f1f1f;
+    --foreground: #dadada;
     --accent:#F47F20;
+    font-family: var(--font-bebas);
   }
 }
 .bebas-neue-regular {

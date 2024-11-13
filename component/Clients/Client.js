@@ -47,7 +47,7 @@ const Client = () => {
 
         <div id="clientScrollerPlaceholder">
     <Swiper
-slidesPerView={4}
+slidesPerView={5}
 spaceBetween={1}
 
 // freeMode={true}
@@ -65,29 +65,31 @@ className="mySwiper"
 style={{
   height: "100%",
 }}>
-<SwiperSlide><Image src={image} alt="logo"   width={150}    height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image1} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image2} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image3} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image4} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image5} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image6} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image7} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image8} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image9} alt="logo"  width={150}   height={50}/></SwiperSlide>
-<SwiperSlide><Image src={image10} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image11} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image12} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image13} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image14} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image15} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image16} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image17} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image18} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image19} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image20} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image21} alt="logo" width={150}  height={50} /></SwiperSlide>
-<SwiperSlide><Image src={image22} alt="logo" width={150}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image} alt="logo"   width={100}    height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image1} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image1} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image1} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image2} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image3} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image4} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image5} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image6} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image7} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image8} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image9} alt="logo"  width={100}   height={50}/></SwiperSlide>
+<SwiperSlide><Image src={image10} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image11} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image12} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image13} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image14} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image15} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image16} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image17} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image18} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image19} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image20} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image21} alt="logo" width={100}  height={50} /></SwiperSlide>
+<SwiperSlide><Image src={image22} alt="logo" width={100}  height={50} /></SwiperSlide>
 
 
 

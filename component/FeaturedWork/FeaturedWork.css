@@ -1,11 +1,11 @@
 #FeaturedWorkContainer{
-    width: 100vw;
+    width: 90vw;
     height: 100%;
     /* background-color: crimson; */
     /* background-color: red; */
 }
 #FeaturedWorkHeading{
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: center;
     margin: 0.5%;
     font-weight: 900;
@@ -22,7 +22,7 @@
     /* background-color: green; */
     /* background-color: crimson; */
     display: flex;
-    gap: .5vw;
+    gap: 1vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -34,7 +34,7 @@
     /* background-color: yellow; */
     /* border: 1px solid black; */
     display: grid;
-    gap: .5vw;
+    gap: 1vw;
     grid-template-columns: 60% 40%;
     grid-template-rows: 1fr 1fr;
 }
@@ -45,7 +45,7 @@
     /* background-color: blue; */
     /* border: 1px solid black; */
     display: grid;
-    gap: .5vw;
+    gap: 1vw;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     
@@ -56,6 +56,7 @@
     width: 100%;
     height: 100%;
     grid-row:1/3;
+    border-radius: 10px;
     /* background-color: red; */
     overflow: hidden;
     /* border: 1px solid black; */
@@ -63,6 +64,7 @@
 #imageContainer2{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     /* background-color: yellow; */
     grid-column: 2/4;
     overflow: hidden;
@@ -71,6 +73,7 @@
 #imageContainer3{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     /* background-color: green; */
     overflow: hidden;
     /* border: 1px solid black; */
@@ -78,6 +81,7 @@
 #imageContainer4{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     /* background-color:yellowgreen; */
     grid-column: 1/3;
     overflow: hidden;
@@ -86,6 +90,7 @@
 #imageContainer5{
     height: 100%;
     width: 100%;
+    border-radius: 10px;
     /* background-color: cyan; */
     grid-row: 2/4;
     grid-column: 3/4;
@@ -95,6 +100,7 @@
 #imageContainer6{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     /* background-color: green; */
     overflow: hidden;
     /* border: 1px solid black; */
@@ -102,6 +108,7 @@
 #imageContainer7{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     /* background-color:yellowgreen; */
     overflow: hidden;
     /* border: 1px solid black; */
@@ -109,6 +116,7 @@
 #imageContainer8{
     height: 100%;
     width: 100%;
+    border-radius: 10px;
     /* background-color: cyan; */
     overflow: hidden;
     grid-column: 1/3;
@@ -130,11 +138,12 @@
 
 
 #seeMore{
-    width: 10%;
+    width: 50%;
     font-size: 1.5vw;
     text-align: center;
     margin-top: 2%;
     font-weight: 900;
+    border-radius: 10px;
     /* -webkit-text-stroke-color: var(--accent);
     -webkit-text-stroke-width: 3px; */
     color:var(--background);
@@ -147,9 +156,9 @@
 }
 
 #seeMore:hover{
-    background-color: var(--background);
+    background-color: var(--foreground);
     color: var(--accent);
-    box-shadow: 3px 3px 10px var(--foreground);
+    box-shadow: 3px 3px 10px black;
 }
 
 

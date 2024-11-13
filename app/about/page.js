@@ -1,13 +1,15 @@
 import React from 'react'
 import About from '@/component/About/About'
+// import Contact from '@/component/Contact/Contact'
+import "./page.css"
 const about = () => {
   return (
     <div>
       <h1 style={{color:"transparent"}}> This is About Page </h1>
       <About />
-      {/* <div id='vision&Ex'>  
-        <div id='vision'>
-          <h1> Our Vision</h1>
+      <div id='vision&Ex'>  
+        {/* <div id='vision'> */}
+          {/* <h1> Our Vision</h1>
           <p>Empowering resources through effective utilization in the ICT sector to lead the global market with a focus on productivity and sustainability. Our vision includes:</p>
           <ul>
             <li>Promoting technology adoption to enhance work efficiency.</li>
@@ -18,7 +20,7 @@ const about = () => {
             <li>Contributing to the development of aspiring youth through industry-specific training.</li>
           
           </ul>
-        </div>
+        </div> */}
         <div id='exceptionality'>
         <h1>our Exceptionality</h1>
         <p>Our commitment is to deliver high-quality services and products with a focus on client satisfaction. This is reflected in our transparent communication with all stakeholders, including clients and employees. Our approach includes:</p>
@@ -31,7 +33,7 @@ const about = () => {
         
         </div>
 
-      </div> */}
+      </div>
     </div>
   )
 }
